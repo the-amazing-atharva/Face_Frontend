@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Face Liveness and Anti-Spoof Detection using CNN</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="bg-image">
+      <div class="overlay"></div>
+      <div class="content">
+        <h1>Ensuring Secure Access with Face Liveness Detection</h1>
+        <p class="subheading">
+          Your biometric security, safeguarded in real-time.
+        </p>
+        <div class="d-flex justify-content-center">
+          <a href="#" class="btn btn-primary mx-2">Get Started</a>
+          <a href="#" class="btn btn-secondary mx-2">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="display-4 font-weight-bold">Features</h2>
+            <p class="lead">
+              Highlighting the key features of our liveness detection system.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3 d-flex align-items-stretch">
+            <div class="feature-box w-100">
+              <div class="icon-box mb-3">
+                <i class="fas fa-bolt fa-3x"></i>
+              </div>
+              <h4>Real-Time Detection</h4>
+              <p>Instantaneous analysis to ensure immediate feedback.</p>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex align-items-stretch">
+            <div class="feature-box w-100">
+              <div class="icon-box mb-3">
+                <i class="fas fa-check-circle fa-3x"></i>
+              </div>
+              <h4>High Accuracy Model</h4>
+              <p>Advanced CNN algorithms provide reliable results.</p>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex align-items-stretch">
+            <div class="feature-box w-100">
+              <div class="icon-box mb-3">
+                <i class="fas fa-users fa-3x"></i>
+              </div>
+              <h4>User-Friendly Interface</h4>
+              <p>Simple and Minimal design for easy navigation and use.</p>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex align-items-stretch">
+            <div class="feature-box w-100">
+              <div class="icon-box mb-3">
+                <i class="fas fa-lock fa-3x"></i>
+              </div>
+              <h4>Secure Authentication</h4>
+              <p>
+                Safeguards against various spoofing methods to ensure security.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <!-- <section id="how-it-works" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">How It Works</h2>
+        <div class="row">
+          <div class="col-md-4 text-center mb-4">
+            <div class="how-it-works-step">
+              <div class="step-number">1</div>
+              <h4>Capture Image</h4>
+              <p>Use your webcam to take a clear facial image.</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-4">
+            <div class="how-it-works-step">
+              <div class="step-number">2</div>
+              <h4>Analyze Liveness</h4>
+              <p>
+                AI-driven algorithms assess the image for liveness indicators.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-4">
+            <div class="how-it-works-step">
+              <div class="step-number">3</div>
+              <h4>Receive Feedback</h4>
+              <p>
+                Instant notification on whether the face is genuine or spoofed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- New How -->
+    <section id="how-it-works" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="display-4 font-weight-bold">How It Works</h2>
+            <p class="lead">
+              Understand the technology behind our solution in simple terms.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 d-flex align-items-start">
+            <div class="step-box">
+              <div class="step-icon mb-3">
+                <i class="fas fa-camera fa-3x"></i>
+              </div>
+              <h4>Step 1: Capture Image</h4>
+              <p>The system uses your webcam to capture your face.</p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-start">
+            <div class="step-box">
+              <div class="step-icon mb-3">
+                <i class="fas fa-search fa-3x"></i>
+              </div>
+              <h4>Step 2: Analyze Liveness</h4>
+              <p>
+                Advanced algorithms analyze the captured image for signs of
+                liveness.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-items-start">
+            <div class="step-box">
+              <div class="step-icon mb-3">
+                <i class="fas fa-comment-alt fa-3x"></i>
+              </div>
+              <h4>Step 3: Live Feedback</h4>
+              <p>
+                Users receive instant feedback on whether the face is live or
+                spoofed.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mt-5">
+          <div class="col">
+            <img
+              src="covernew.jpg"
+              alt="How It Works Flowchart"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="py-5 text-white text-center">
+      <div class="container">
+        <h2 class="mb-4">Secure Your Identity with Our Technology</h2>
+        <p class="lead mb-4">
+          Join us in advancing biometric security to the next level.
+        </p>
+        <a href="#" class="btn btn-lg btn-light mr-3">Get Started</a>
+        <a href="#faq" class="btn btn-lg btn-outline-light">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5>About Us</h5>
+            <p>
+              Dedicated to providing the best in biometric security solutions.
+            </p>
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-light">Home</a></li>
+              <li><a href="#features" class="text-light">Features</a></li>
+              <li>
+                <a href="#how-it-works" class="text-light">How It Works</a>
+              </li>
+              <li><a href="#faq" class="text-light">CTA</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0">
+            <h5>Our Team</h5>
+            <ul class="list-unstyled">
+              <li>Atharva Salitri</li>
+              <li>Shrey Rupnavar</li>
+              <li>Tanishq Thuse</li>
+              <li>Tripti Mirani</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Connect With Us</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-facebook fa-2x"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-twitter fa-2x"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-light"
+                  ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+            <p>Email: info@yourproject.com<br />Phone: (123) 456-7890</p>
+          </div>
+        </div>
+        <hr class="bg-light" />
+        <div class="text-center mt-4">
+          <p>&copy; 2024 Real-Time Face Liveness. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<!-- Act as a god level web developer who is known 
+for making awesome and visually epic and mind 
+blowing landing pages that look very good. 
+We are making a project called, "Real Time Face liveness 
+and Anti Spoof Detection using CNN". 
+I will provide u first the index.html and 
+then styles.css . I want u to be as innovative 
+as possible using html css and js to improve the 
+landing page. feel free to innovate and change 
+layouts and styles and other features to be more visually awesome -->
